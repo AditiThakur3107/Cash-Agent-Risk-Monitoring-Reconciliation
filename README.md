@@ -1,1 +1,30 @@
-This project implements a fully synthetic end-to-end Cash Agent system designed for transaction risk monitoring and reconciliation. It identifies suspicious transaction patterns using rule-based logic and optional ML scoring, simulates stakeholder feedback to refine rules, and performs automatic credit–debit reconciliation with fallback matching for unresolved entries. The system demonstrates how financial processes such as risk detection, rule tuning, and reconciliation can be automated
+# Cash Agent Risk Monitoring & Reconciliation
+
+A streamlined system for detecting, monitoring, and reconciling cash agent transactions.  
+It automates risk checks, transaction matching, reporting, and dashboard-based insights.
+
+## Features
+- Automated transaction ingestion and reconciliation  
+- Rule-based risk monitoring  
+- Dashboard for agent-level summaries  
+- Error detection and mismatch reporting  
+- Modular, extensible code structure  
+
+## Quick Start
+```
+pip install -r requirements.txt
+python main.py
+```
+
+## Project Structure
+```
+/data              - input/output transaction files
+/src               - core logic modules
+/utils             - helpers and validation scripts
+/main.py           - entry point
+```
+
+## Contribution
+Pull requests are welcome. Keep commits clean and documented.
+
+
